@@ -1,0 +1,47 @@
+{
+
+  "_version": "1.5",
+
+  "_comment": "This will determine which type of lines should be ignored. Name must match the json key.",
+  "chosenType": "kirikiri",
+
+  "fileTypes": "txt, ks",
+  "breakCharacter": "[r]",
+  "maxCharacters": "30",
+  "_comment": "If there are strings or characters that are not wanted to be included in the character count.",
+  "skipCountCharacters": "[w], [lr]",
+  "_comment": "If empty, it will default to the program's own directory. Must have a slash after the dir name.",
+  "fileDirectory": "input/",
+  "encoding": "utf_16_le",
+  "_comment": "This will replace potentially unwanted values such as existing line breaks. Set to 'true' or 'false'.",
+  "enableCleanup": "true",
+
+
+  "kirikiri":{
+    "1": ";[",
+    "2": "【",
+    "3": "[",
+    "4": "]",
+    "5": "*",
+    "6": "@",
+    "7": "Steam.setAchievement",
+    "8": "kag.",
+    "9": "var ",
+    "10": ";--",
+    "11": "%[",
+    "12": "『"
+  },
+
+  "kirikiri_nvl":{
+    "1": "『",
+    "2": "【",
+    "3": "*",
+    "4": "@",
+    "5": "Steam.setAchievement",
+    "6": "kag.",
+    "7": "var ",
+    "8": ";--",
+    "9": "%["
+  }
+
+}
